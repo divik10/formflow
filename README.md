@@ -246,7 +246,6 @@ The fix is simple. You wrap any browser-only code inside a `useEffect` hook, whi
 ```
 PORT=5001
 MONGO_URI=mongodb://localhost:27017/feedbackwidget
-JWT_SECRET=your_secret_key_here
 ```
 
 ### client/.env
